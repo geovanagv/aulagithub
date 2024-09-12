@@ -1,0 +1,17 @@
+{
+    "typeAcquisition": {
+      "include": ["jest"]
+    },
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+      "**/*.test.ts"
+    ]
+  }
+  
